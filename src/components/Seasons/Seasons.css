@@ -1,0 +1,65 @@
+.season-container {
+  text-align: center;
+}
+
+.season-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 94px;
+}
+
+.season-numbers {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.season-numbers span {
+  font-size: 64px;
+  width: 82px;
+  height: 96px;
+  border: 3px solid #FF0000;
+  border-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.season-numbers span:hover {
+  background-color: rgb(255, 0, 0, 0.1);
+}
+
+.selected-number {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+#number01 {
+  border-left: 3px solid #FF0000;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+#number07 {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.season-image {
+  margin-top: 55px;
+  border: 3px solid #FFFFFF;
+  border-radius: 16px;
+}
+
+.season-overview {
+  max-width: 85%;
+  font-size: 16px;
+  margin: 55px auto 0;
+}
+
+.season-episodes {
+  font-size: 14px;
+  font-weight: 700;
+}

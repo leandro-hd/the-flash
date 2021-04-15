@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+.home {
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://www.themoviedb.org/t/p/original/4lFnO2gAuypakvm82WKzqCqwl1D.jpg');
+  width: 100vw;
+  height: 100vh;
+}
+
+.vertical-home {
+  background: linear-gradient(to top, #121212 15%, transparent 75%);
+  width: inherit;
+  height: inherit;
+}
+
+.home-container {
+  width: 50vw;
+  height: 100vh;
+  margin-left: 50%;
+}
+
+.home-name {
+  font: 96px 'Lato';
+  text-align: center;
+  padding-top: 60px;
+}
+
+.home-datas {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.home-genres {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 220px;
+}
+
+.genres-title {
+  font-weight: 700;
+}
+
+.home-vote {
+  color: #28A745;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.vote-title {
+  font-weight: 700;
+}
