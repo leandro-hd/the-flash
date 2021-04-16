@@ -1,0 +1,53 @@
+.persons {
+  overflow-x: hidden;
+  margin-top: 55px;
+}
+
+.persons-container {
+  display: flex;
+  padding-left: 30px;
+  transition: all ease 0.5s;
+  overflow-x: hidden;
+}
+
+.person-image {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #121212;
+  border-radius: 50%;
+  margin: 0 20px;
+  overflow: hidden;
+}
+
+.icon-left, 
+.icon-right {
+  position: absolute;
+  width: 40px;
+  height: 200px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.icon-left {
+  left: 0;
+}
+
+.icon-right {
+  right: 0;
+}
+
+.person-name {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.character {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}

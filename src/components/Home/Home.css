@@ -53,3 +53,31 @@
 .vote-title {
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .home {
+    height: 75vh;
+  }
+
+  .home-container {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .home-name {
+    font: 64px 'Lato';
+  }
+  
+  .home-datas {
+    font-size: 18px;
+  }
+  
+  .home-genres {
+    font-size: 18px;
+    margin-top: 160px;
+  }
+
+  .home-vote {
+    font-size: 18px;
+  }
+}

@@ -2,8 +2,6 @@ import React from 'react';
 import './LastEpisode.css';
 
 export default ({ main }) => {
-  let date = new Date(main.last_air_date);
-  let formattedDate = ((date.getDate() )) + "/" + ((date.getMonth() + 1)) + "/" + date.getFullYear(); 
 
   return (
     <section className="last-episode">
@@ -16,7 +14,7 @@ export default ({ main }) => {
           <span>&nbsp;</span>
           <div className="episode">EP{main.last_episode_to_air.episode_number}</div>
           <span>&nbsp; • &nbsp;</span>
-          <div className="date">{formattedDate}</div>
+          <div className="date">{main.last_air_date}</div>
         </div>
       </div>
     </section>

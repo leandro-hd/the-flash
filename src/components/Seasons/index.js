@@ -28,7 +28,7 @@ export default ({ main }) => {
         </div>
           <img className="season-image" src={`https://image.tmdb.org/t/p/w500${main.seasons[number].poster_path}`} alt="Pôster"/>
         <div className="season-overview">{main.seasons[number].overview}</div>
-        <div className="season-episodes">({main.seasons[number].episode_count} episódios)</div>
+        <div className="season-episodes">{main.seasons[number].episode_count} episódios</div>
       </div>
     </section>
   )

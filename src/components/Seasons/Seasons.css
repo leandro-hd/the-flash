@@ -63,3 +63,34 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .season-title {
+    font-size: 24px;
+    margin-top: 64px;
+  }
+
+  .season-numbers {
+    margin-top: 40px;
+  }
+  
+  .season-numbers span {
+    font-size: 24px;
+    width: 40px;
+    height: 48px;
+  }
+
+  .season-numbers span:hover {
+    background-color: #FF0000;
+  }
+
+  .season-image {
+    width: 85%;
+    margin-top: 40px;
+  }
+  
+  .season-overview {
+    font-size: 14px;
+    margin: 40px auto 0;
+  }
+}

@@ -27,3 +27,24 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .episode-image {
+    width: 85%;
+  }
+
+  .episode-name {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  .episode-overview {
+    font-size: 14px;
+    margin: 20px auto 0;
+  }
+  
+  .episode-data {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
